@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954C081729EC6DC3008B227D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C081629EC6DC3008B227D /* WidgetKit.framework */; };
+		954C081929EC6DC3008B227D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C081829EC6DC3008B227D /* SwiftUI.framework */; };
+		954C081C29EC6DC3008B227D /* isMercuryInRetrogradeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C081B29EC6DC3008B227D /* isMercuryInRetrogradeWidgetBundle.swift */; };
+		954C081E29EC6DC3008B227D /* isMercuryInRetrogradeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C081D29EC6DC3008B227D /* isMercuryInRetrogradeWidgetLiveActivity.swift */; };
+		954C082029EC6DC3008B227D /* isMercuryInRetrogradeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C081F29EC6DC3008B227D /* isMercuryInRetrogradeWidget.swift */; };
+		954C082329EC6DC4008B227D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954C082229EC6DC4008B227D /* Assets.xcassets */; };
+		954C082529EC6DC4008B227D /* isMercuryInRetrogradeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 954C082129EC6DC3008B227D /* isMercuryInRetrogradeWidget.intentdefinition */; };
+		954C082629EC6DC4008B227D /* isMercuryInRetrogradeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 954C082129EC6DC3008B227D /* isMercuryInRetrogradeWidget.intentdefinition */; };
+		954C082929EC6DC4008B227D /* isMercuryInRetrogradeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 954C081429EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95A41EAD29F0B8B5005D68F8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A41EAC29F0B8B5005D68F8 /* DataModel.swift */; };
+		95A41EAE29F0B8B5005D68F8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A41EAC29F0B8B5005D68F8 /* DataModel.swift */; };
+		95CE306A29F09654002C7D5B /* StyleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE306929F09654002C7D5B /* StyleConfig.swift */; };
+		95CE306B29F09654002C7D5B /* StyleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE306929F09654002C7D5B /* StyleConfig.swift */; };
 		95F1198529EB6CD400589E27 /* isMercuryInRetrogradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1198429EB6CD400589E27 /* isMercuryInRetrogradeApp.swift */; };
 		95F1198729EB6CD400589E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1198629EB6CD400589E27 /* ContentView.swift */; };
 		95F1198929EB6CD500589E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F1198829EB6CD500589E27 /* Assets.xcassets */; };
@@ -17,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		954C082729EC6DC4008B227D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F1197929EB6CD400589E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954C081329EC6DC3008B227D;
+			remoteInfo = isMercuryInRetrogradeWidgetExtension;
+		};
 		95F1199229EB6CD500589E27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 95F1197929EB6CD400589E27 /* Project object */;
@@ -33,7 +53,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		954C082A29EC6DC4008B227D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				954C082929EC6DC4008B227D /* isMercuryInRetrogradeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		954C081429EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = isMercuryInRetrogradeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C081629EC6DC3008B227D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		954C081829EC6DC3008B227D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		954C081B29EC6DC3008B227D /* isMercuryInRetrogradeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeWidgetBundle.swift; sourceTree = "<group>"; };
+		954C081D29EC6DC3008B227D /* isMercuryInRetrogradeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		954C081F29EC6DC3008B227D /* isMercuryInRetrogradeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeWidget.swift; sourceTree = "<group>"; };
+		954C082129EC6DC3008B227D /* isMercuryInRetrogradeWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = isMercuryInRetrogradeWidget.intentdefinition; sourceTree = "<group>"; };
+		954C082229EC6DC4008B227D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954C082429EC6DC4008B227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954C082E29EDE3E6008B227D /* isMercuryInRetrogradeRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = isMercuryInRetrogradeRelease.entitlements; sourceTree = "<group>"; };
+		954C082F29EDE417008B227D /* isMercuryInRetrogradeWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = isMercuryInRetrogradeWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
+		95A41EAC29F0B8B5005D68F8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		95CE306929F09654002C7D5B /* StyleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleConfig.swift; sourceTree = "<group>"; };
 		95F1198129EB6CD400589E27 /* isMercuryInRetrograde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isMercuryInRetrograde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F1198429EB6CD400589E27 /* isMercuryInRetrogradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeApp.swift; sourceTree = "<group>"; };
 		95F1198629EB6CD400589E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,9 +91,19 @@
 		95F1199B29EB6CD500589E27 /* isMercuryInRetrogradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isMercuryInRetrogradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F1199F29EB6CD500589E27 /* isMercuryInRetrogradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeUITests.swift; sourceTree = "<group>"; };
 		95F119A129EB6CD500589E27 /* isMercuryInRetrogradeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isMercuryInRetrogradeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95F119AE29EB723E00589E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		954C081129EC6DC3008B227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C081929EC6DC3008B227D /* SwiftUI.framework in Frameworks */,
+				954C081729EC6DC3008B227D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95F1197E29EB6CD400589E27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,12 +128,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		954C081529EC6DC3008B227D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954C081629EC6DC3008B227D /* WidgetKit.framework */,
+				954C081829EC6DC3008B227D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		954C081A29EC6DC3008B227D /* isMercuryInRetrogradeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				954C081B29EC6DC3008B227D /* isMercuryInRetrogradeWidgetBundle.swift */,
+				954C081D29EC6DC3008B227D /* isMercuryInRetrogradeWidgetLiveActivity.swift */,
+				954C081F29EC6DC3008B227D /* isMercuryInRetrogradeWidget.swift */,
+				95CE306929F09654002C7D5B /* StyleConfig.swift */,
+				954C082129EC6DC3008B227D /* isMercuryInRetrogradeWidget.intentdefinition */,
+				954C082229EC6DC4008B227D /* Assets.xcassets */,
+				954C082429EC6DC4008B227D /* Info.plist */,
+			);
+			path = isMercuryInRetrogradeWidget;
+			sourceTree = "<group>";
+		};
 		95F1197829EB6CD400589E27 = {
 			isa = PBXGroup;
 			children = (
+				954C082F29EDE417008B227D /* isMercuryInRetrogradeWidgetExtensionRelease.entitlements */,
 				95F1198329EB6CD400589E27 /* isMercuryInRetrograde */,
 				95F1199429EB6CD500589E27 /* isMercuryInRetrogradeTests */,
 				95F1199E29EB6CD500589E27 /* isMercuryInRetrogradeUITests */,
+				954C081A29EC6DC3008B227D /* isMercuryInRetrogradeWidget */,
+				954C081529EC6DC3008B227D /* Frameworks */,
 				95F1198229EB6CD400589E27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +170,7 @@
 				95F1198129EB6CD400589E27 /* isMercuryInRetrograde.app */,
 				95F1199129EB6CD500589E27 /* isMercuryInRetrogradeTests.xctest */,
 				95F1199B29EB6CD500589E27 /* isMercuryInRetrogradeUITests.xctest */,
+				954C081429EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +178,11 @@
 		95F1198329EB6CD400589E27 /* isMercuryInRetrograde */ = {
 			isa = PBXGroup;
 			children = (
+				954C082E29EDE3E6008B227D /* isMercuryInRetrogradeRelease.entitlements */,
+				95F119AE29EB723E00589E27 /* Info.plist */,
 				95F1198429EB6CD400589E27 /* isMercuryInRetrogradeApp.swift */,
 				95F1198629EB6CD400589E27 /* ContentView.swift */,
+				95A41EAC29F0B8B5005D68F8 /* DataModel.swift */,
 				95F1198829EB6CD500589E27 /* Assets.xcassets */,
 				95F1198A29EB6CD500589E27 /* Preview Content */,
 			);
@@ -130,6 +217,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		954C081329EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C082D29EC6DC4008B227D /* Build configuration list for PBXNativeTarget "isMercuryInRetrogradeWidgetExtension" */;
+			buildPhases = (
+				954C081029EC6DC3008B227D /* Sources */,
+				954C081129EC6DC3008B227D /* Frameworks */,
+				954C081229EC6DC3008B227D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isMercuryInRetrogradeWidgetExtension;
+			productName = isMercuryInRetrogradeWidgetExtension;
+			productReference = 954C081429EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		95F1198029EB6CD400589E27 /* isMercuryInRetrograde */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95F119A529EB6CD500589E27 /* Build configuration list for PBXNativeTarget "isMercuryInRetrograde" */;
@@ -137,10 +241,12 @@
 				95F1197D29EB6CD400589E27 /* Sources */,
 				95F1197E29EB6CD400589E27 /* Frameworks */,
 				95F1197F29EB6CD400589E27 /* Resources */,
+				954C082A29EC6DC4008B227D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				954C082829EC6DC4008B227D /* PBXTargetDependency */,
 			);
 			name = isMercuryInRetrograde;
 			productName = isMercuryInRetrograde;
@@ -193,6 +299,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					954C081329EC6DC3008B227D = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					95F1198029EB6CD400589E27 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -222,11 +331,20 @@
 				95F1198029EB6CD400589E27 /* isMercuryInRetrograde */,
 				95F1199029EB6CD500589E27 /* isMercuryInRetrogradeTests */,
 				95F1199A29EB6CD500589E27 /* isMercuryInRetrogradeUITests */,
+				954C081329EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		954C081229EC6DC3008B227D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C082329EC6DC4008B227D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95F1197F29EB6CD400589E27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,12 +371,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		954C081029EC6DC3008B227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CE306B29F09654002C7D5B /* StyleConfig.swift in Sources */,
+				954C081E29EC6DC3008B227D /* isMercuryInRetrogradeWidgetLiveActivity.swift in Sources */,
+				954C081C29EC6DC3008B227D /* isMercuryInRetrogradeWidgetBundle.swift in Sources */,
+				954C082529EC6DC4008B227D /* isMercuryInRetrogradeWidget.intentdefinition in Sources */,
+				954C082029EC6DC3008B227D /* isMercuryInRetrogradeWidget.swift in Sources */,
+				95A41EAE29F0B8B5005D68F8 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95F1197D29EB6CD400589E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A41EAD29F0B8B5005D68F8 /* DataModel.swift in Sources */,
+				954C082629EC6DC4008B227D /* isMercuryInRetrogradeWidget.intentdefinition in Sources */,
 				95F1198729EB6CD400589E27 /* ContentView.swift in Sources */,
 				95F1198529EB6CD400589E27 /* isMercuryInRetrogradeApp.swift in Sources */,
+				95CE306A29F09654002C7D5B /* StyleConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +416,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		954C082829EC6DC4008B227D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954C081329EC6DC3008B227D /* isMercuryInRetrogradeWidgetExtension */;
+			targetProxy = 954C082729EC6DC4008B227D /* PBXContainerItemProxy */;
+		};
 		95F1199329EB6CD500589E27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 95F1198029EB6CD400589E27 /* isMercuryInRetrograde */;
@@ -295,6 +434,61 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		954C082B29EC6DC4008B227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499MHWRALR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isMercuryInRetrogradeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = isMercuryInRetrogradeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.annakallenbornbolden.isMercuryInRetrograde.isMercuryInRetrogradeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954C082C29EC6DC4008B227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = isMercuryInRetrogradeWidgetExtensionRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499MHWRALR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isMercuryInRetrogradeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = isMercuryInRetrogradeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.annakallenbornbolden.isMercuryInRetrograde.isMercuryInRetrogradeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		95F119A329EB6CD500589E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,6 +606,7 @@
 		95F119A629EB6CD500589E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,7 +615,7 @@
 				DEVELOPMENT_TEAM = 499MHWRALR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = isMercuryInRetrograde/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -441,15 +636,17 @@
 		95F119A729EB6CD500589E27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = isMercuryInRetrograde/isMercuryInRetrogradeRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"isMercuryInRetrograde/Preview Content\"";
 				DEVELOPMENT_TEAM = 499MHWRALR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = isMercuryInRetrograde/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -546,6 +743,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		954C082D29EC6DC4008B227D /* Build configuration list for PBXNativeTarget "isMercuryInRetrogradeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C082B29EC6DC4008B227D /* Debug */,
+				954C082C29EC6DC4008B227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95F1197C29EB6CD400589E27 /* Build configuration list for PBXProject "isMercuryInRetrograde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
